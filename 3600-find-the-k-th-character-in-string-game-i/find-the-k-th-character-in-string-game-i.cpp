@@ -16,5 +16,6 @@ public:
             suf+=temp;
         }
         return suf[k-1];
+        //return __builtin_popcount(k-1);
     }
 };
